@@ -1,0 +1,19 @@
+<ng-container *ngIf="state === 'LOADING'">
+  <div class="wrap-loading wrap-loading-gray">
+    <mat-spinner></mat-spinner>
+    <span class="select-message-text hint-text mt-32">
+      <span>ESTAMOS CONSULTANDO...</span>
+    </span>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="state === 'NONE'">
+  <div>
+    <mat-icon>
+      clear
+    </mat-icon>
+    <span class="select-message-text hint-text">
+      <span>NO HAY DATOS PARA MOSTRAR</span>
+    </span>
+  </div>
+</ng-container>

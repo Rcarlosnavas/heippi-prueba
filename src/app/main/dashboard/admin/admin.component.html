@@ -1,0 +1,16 @@
+<div class="content">
+  <div class="left-content">izquierda</div>
+  <div class="right-content">
+    <div class="card">
+      <div><h3>Lista de Usuarios</h3></div>
+
+      <input type="text" placeholder="filtrar" (ngModel)="(ng_value)" />
+      <ul>
+        <li *ngFor="let user of userInfo | filterpipe: ng_value">
+          {{ user.name }}
+        </li>
+      </ul>
+      {{ ng_value }}
+    </div>
+  </div>
+</div>

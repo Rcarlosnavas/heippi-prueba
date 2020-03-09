@@ -1,0 +1,17 @@
+.toolbar {
+  background-color: rgba($color: $neutral-black-russian, $alpha: 0.2);
+  .content-left,
+  .content-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-left {
+    justify-content: flex-start;
+  }
+  .content-right {
+    justify-content: flex-end;
+  }
+}

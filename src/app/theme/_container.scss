@@ -1,0 +1,18 @@
+.blank-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: repeat-y;
+  animation: animate 100s linear infinite;
+  background: url("https://previews.123rf.com/images/gstockstudio/gstockstudio1506/gstockstudio150600859/41659847-diversas-pessoas-com-diferentes-emo%C3%A7%C3%B5es-colagem-de-diversas-pessoas-de-faixa-et%C3%A1ria-multi-%C3%A9tnica-e-mista-e.jpg");
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  border: 2px black solid;
+}

@@ -1,0 +1,12 @@
+.btn {
+  font-size: 1.1vw;
+  color: $white;
+  background: linear-gradient(
+    to right,
+    rgba($color: $neutral-honey-flower, $alpha: 1),
+    rgba($color: $neutral-lavender-purple, $alpha: 1)
+  );
+  padding: 0.4em 1.5em !important;
+  margin-left: 2em !important;
+  border-radius: 20px !important;
+}

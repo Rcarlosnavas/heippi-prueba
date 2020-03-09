@@ -1,0 +1,39 @@
+.content {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 64px);
+  display: flex;
+
+  .left-content {
+    width: 20%;
+    height: 100%;
+    border: 3px yellowgreen solid;
+  }
+  .right-content {
+    width: 80%;
+    height: 100%;
+    border: 3px red solid;
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      input {
+        width: 50%;
+        height: 8%;
+        border-radius: 4px;
+        background-color: white;
+        display: flex;
+        margin: 1em auto;
+      }
+      width: 450px;
+      height: auto;
+      max-height: 350px;
+      background-color: $neutral-whisper;
+      border-radius: 1em;
+      display: flex;
+      margin: 2em;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
